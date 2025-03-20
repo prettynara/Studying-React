@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import GoalList from "./components/GoalList/GoalList";
 import NewGoal from "./components/NewGoal/NewGoal";
 import "./App.css";
@@ -16,6 +17,20 @@ const App = () => {
       <GoalList goals={courseGoals} />
     </div>
   );
+=======
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+import Users from './user/pages/Users';
+
+const App = () => {
+  return (
+  <Router>
+    <Route path="/" exact>
+      <Users />
+    </Route>
+  </Router>
+ );
+>>>>>>> c5dac2d (Initial commit)
 };
 
 export default App;

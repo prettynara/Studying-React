@@ -1,11 +1,20 @@
 {
+<<<<<<< HEAD
   "name": "reactjs",
+=======
+  "name": "frontend",
+>>>>>>> c5dac2d (Initial commit)
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+<<<<<<< HEAD
     "react-scripts": "3.2.0"
+=======
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^5.0.1"
+>>>>>>> c5dac2d (Initial commit)
   },
   "scripts": {
     "start": "react-scripts start",
